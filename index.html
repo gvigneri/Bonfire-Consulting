@@ -1,0 +1,718 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bonfire Consulting - Homepage Hero Prototype</title>
+  <meta name="description" content="Bonfire Consulting homepage navigation and hero prototype." />
+  <!-- Elementor mapping: Font Awesome icons map to Elementor Icon and Icon Box widgets. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Elementor mapping: Header template with logo widget, nav menu widget, and CTA button widget. -->
+  <header class="site-header" aria-label="Main navigation">
+    <div class="site-container header-container">
+      <a class="brand-link" href="#" aria-label="Bonfire Consulting home">
+        <img class="brand-logo" src="assets/Bonfire-Consulting.svg" alt="Bonfire Consulting" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars menu-icon" aria-hidden="true"></i>
+        <span class="screen-reader-text">Menu</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="#">Solutions <i class="fa-solid fa-chevron-down nav-caret" aria-hidden="true"></i></a>
+            <div class="dropdown-panel">
+              <a href="#">Psychological Safety</a>
+              <a href="#">High-Performance Teams</a>
+              <a href="#">High-Potentials</a>
+              <a href="#">Navigating Change</a>
+              <a href="#">Innovation</a>
+              <a href="#">Idea Development</a>
+              <a href="#">Personality</a>
+              <a href="#">Human AI</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="#">Engage <i class="fa-solid fa-chevron-down nav-caret" aria-hidden="true"></i></a>
+            <div class="dropdown-panel dropdown-panel-wide">
+              <a href="#">Keynotes</a>
+              <a href="#">Workshops</a>
+              <a href="#">Advisory / Coaching / Consulting</a>
+              <a href="#">Tools</a>
+              <a href="#">ISPI tool</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="#">About <i class="fa-solid fa-chevron-down nav-caret" aria-hidden="true"></i></a>
+            <div class="dropdown-panel">
+              <a href="#">Andrew Harrison</a>
+              <a href="#">Bonfire Approach</a>
+              <a href="#">Client Experience</a>
+              <a href="#">Collaborators</a>
+              <a href="#">Testimonials</a>
+            </div>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a class="nav-link" href="#">Insights <i class="fa-solid fa-chevron-down nav-caret" aria-hidden="true"></i></a>
+            <div class="dropdown-panel">
+              <a href="#">Articles</a>
+              <a href="#">Resources</a>
+              <a href="#">Books and Publications</a>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="button button-primary" href="#">Schedule a Conversation</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Elementor mapping: Hero section with left content container and right visual/card container. -->
+    <section class="hero-section" aria-labelledby="hero-title">
+      <div class="fire-canvas-container" aria-hidden="true">
+        <canvas id="fire-canvas" class="fire-canvas"></canvas>
+      </div>
+
+      <div class="site-container hero-title-container">
+        <p class="hero-subtitle">
+          <span>Leadership<span class="headline-dot">.</span></span>
+          <span>Teams<span class="headline-dot">.</span></span>
+          <span>Innovation<span class="headline-dot">.</span></span>
+          <span>Performance<span class="headline-dot">.</span></span>
+        </p>
+        <h1 id="hero-title" class="hero-title">Helping Organizations Build High-Performance Leaders, Teams, and Cultures</h1>
+      </div>
+
+      <div class="site-container hero-container">
+        <div class="hero-content">
+          <p class="hero-copy">
+            Bonfire helps organizations strengthen leadership, improve communication and collaboration, build high-performance teams, and create the conditions where people and organizations thrive.
+          </p>
+          <p class="hero-copy hero-copy-secondary">
+            A hub for the work of Andrew Harrison, through keynotes, workshops, advisory services, coaching, and proven assessment tools, we help leaders and teams navigate complexity, adapt to change, and achieve meaningful results.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary button-large" href="#">
+              Explore Solutions
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="button button-outline button-large" href="#">
+              Schedule a Conversation
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Bonfire Consulting visual summary">
+          <figure class="hero-image-card">
+            <video class="hero-card-video" controls preload="metadata" playsinline poster="assets/hero-video-bg.png" aria-label="Bonfire Consulting video montage">
+              <source src="assets/bonfire-video-web.mp4" type="video/mp4" />
+            </video>
+          </figure>
+
+          <aside class="quote-card">
+            <p class="quote-mark" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></p>
+            <blockquote>The best leaders don't just drive results - they build the people and cultures that make results possible.</blockquote>
+            <cite>- Andrew Harrison</cite>
+          </aside>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Elementor mapping: full-width logo carousel section. -->
+    <section class="trusted-row" aria-label="Trusted by leaders and organizations worldwide">
+        <p>Trusted by leaders and organizations worldwide</p>
+        <div class="trusted-carousel">
+          <div class="trusted-logos">
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Walmart" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 02" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 03" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 04" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 05" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 06" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 07" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 08" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 09" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 10" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 11" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 12" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 13" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 14" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 15" /></span>
+            <span class="logo-placeholder"><img src="assets/walmart-logo.svg" alt="Placeholder logo 16" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+            <span class="logo-placeholder" aria-hidden="true"><img src="assets/walmart-logo.svg" alt="" /></span>
+          </div>
+        </div>
+    </section>
+
+    <!-- Elementor mapping: content section with intro container and two icon-list/card containers. -->
+    <section class="why-section" aria-labelledby="why-title">
+      <div class="site-container why-container">
+        <div class="why-intro">
+          <p class="section-label">Why Organizations Choose Bonfire</p>
+          <h2 id="why-title">Performance changes when human dynamics change.</h2>
+          <p>
+            High performance is not just about talent or strategy. It is about how leaders lead and how teams work together.
+          </p>
+        </div>
+
+        <div class="why-panels">
+          <article class="why-panel why-panel-challenges">
+            <div class="panel-heading">
+              <h3>Where Performance Breaks Down</h3>
+            </div>
+
+            <p>Most team or organizational performance breaks down because of:</p>
+
+            <ul class="why-list">
+              <li>Leadership lacks alignment</li>
+              <li>Teams operate in silos</li>
+              <li>Communication and collaboration breakdowns</li>
+              <li>Accountability is inconsistent</li>
+              <li>Trust is fragile under pressure</li>
+              <li>Resistance to change</li>
+              <li>Execution slows despite strong intent</li>
+            </ul>
+          </article>
+
+          <article class="why-panel why-panel-results">
+            <div class="panel-heading">
+              <h3>What Bonfire Helps Create</h3>
+            </div>
+
+            <p>
+              Bonfire helps organizations address these challenges by focusing on the human dynamics that influence performance every day.
+            </p>
+
+            <ul class="why-list">
+              <li>Stronger leadership alignment and decision-making</li>
+              <li>Better communication and collaboration</li>
+              <li>Higher-performing teams</li>
+              <li>Greater trust and accountability</li>
+              <li>Improved innovation and adaptability</li>
+              <li>More consistent organizational execution</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Elementor mapping: solutions CTA card grid section. -->
+    <section class="help-section" aria-labelledby="help-title">
+      <div class="site-container">
+        <div class="help-panel">
+          <p class="section-label">Solutions for Today's Organizational Challenges</p>
+          <h2 id="help-title">Building Trust, Learning, and Commitment</h2>
+
+          <div class="help-grid">
+            <a class="help-item" href="#">
+              <span class="help-icon" aria-hidden="true">
+                <i class="fa-solid fa-shield-heart"></i>
+              </span>
+              <h4>The Leadership Power of Psychological Safety</h4>
+              <p>Create environments where people speak openly, contribute ideas, learn from mistakes, and perform at their best.</p>
+            </a>
+
+            <a class="help-item" href="#">
+              <span class="help-icon" aria-hidden="true">
+                <i class="fa-solid fa-people-group"></i>
+              </span>
+              <h4>What High-Performance Teams Do Differently</h4>
+              <p>Strengthen the leadership and team behaviors that transform capable groups into exceptional teams.</p>
+            </a>
+
+            <a class="help-item" href="#">
+              <span class="help-icon" aria-hidden="true">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+              </span>
+              <h4>Leading Forward</h4>
+              <p>Develop emerging and high-potential leaders with the mindset, skills, and confidence to lead effectively in today's complex workplace.</p>
+            </a>
+
+            <a class="help-item" href="#">
+              <span class="help-icon" aria-hidden="true">
+                <i class="fa-solid fa-route"></i>
+              </span>
+              <h4>Leading Through Change</h4>
+              <p>Help leaders and teams adapt, communicate, and perform effectively during periods of uncertainty and transformation.</p>
+            </a>
+
+            <a class="help-item" href="#">
+              <span class="help-icon" aria-hidden="true">
+                <i class="fa-solid fa-comments"></i>
+              </span>
+              <h4>Communication and Collaboration by Design</h4>
+              <p>Unlock the power of diverse communication, work, and collaboration styles to improve teamwork and organizational effectiveness.</p>
+            </a>
+
+            <a class="help-item" href="#">
+              <span class="help-icon" aria-hidden="true">
+                <i class="fa-solid fa-lightbulb"></i>
+              </span>
+              <h4>Choreographing Innovation Outcomes</h4>
+              <p>Strengthen the human dynamics that influence innovation, collaboration, and execution.</p>
+            </a>
+
+            <a class="help-item" href="#">
+              <span class="help-icon" aria-hidden="true">
+                <i class="fa-solid fa-diagram-project"></i>
+              </span>
+              <h4>Ideation and Innovation Challenges</h4>
+              <p>Design structured innovation experiences that generate stronger ideas and move opportunities toward action.</p>
+            </a>
+
+            <a class="help-item" href="#">
+              <span class="help-icon" aria-hidden="true">
+                <i class="fa-solid fa-microchip"></i>
+              </span>
+              <h4>The AI and Human Integration Advantage</h4>
+              <p>Align leadership, teams, and technology to improve performance in an AI-enabled workplace.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Elementor mapping: three-column engagement cards section with image, copy, and link widgets. -->
+    <section class="engage-section" aria-labelledby="engage-title">
+      <div class="site-container">
+        <div class="section-heading engage-heading">
+          <p class="section-label">How We Work Together</p>
+          <h2 id="engage-title">How Organizations Engage Bonfire</h2>
+        </div>
+
+        <div class="engage-grid">
+          <article class="engage-card">
+            <img class="engage-card-image" src="assets/hero-leadership-landscape.png" alt="Leadership speaker in a workshop setting" />
+            <div class="engage-card-content">
+              <h3>Keynotes and Speaking</h3>
+              <p>Engaging presentations that inspire leaders and teams to think differently about leadership, performance, communication, innovation, and change.</p>
+              <a class="learn-more-link" href="#">
+                Learn More
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="engage-card">
+            <img class="engage-card-image" src="assets/hero-leadership-landscape.png" alt="Leader overlooking a mountain landscape" />
+            <div class="engage-card-content">
+              <h3>Workshops</h3>
+              <p>Interactive experiences designed to create practical application, meaningful discussion, and measurable improvement.</p>
+              <a class="learn-more-link" href="#">
+                Learn More
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="engage-card">
+            <img class="engage-card-image" src="assets/hero-leadership-landscape.png" alt="Organizational consulting workshop setting" />
+            <div class="engage-card-content">
+              <h3>Advisory, Coaching, and Consulting</h3>
+              <p>Ongoing support for leaders and organizations navigating growth, complexity, innovation, and organizational change.</p>
+              <a class="learn-more-link" href="#">
+                Learn More
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Elementor mapping: two-column tools and assessments section with content column and portrait image column. -->
+    <section class="tools-section" aria-labelledby="tools-title">
+      <div class="site-container tools-container">
+        <div class="tools-content">
+          <p class="section-label">Assessment Tools and Frameworks</p>
+          <h2 id="tools-title">Tools That Create Insight and Action</h2>
+          <p>Bonfire incorporates proven assessment tools and frameworks including:</p>
+
+          <ul class="tools-list">
+            <li>Innovation Strengths Preference Indicator (ISPI)</li>
+            <li>CliftonStrengths</li>
+            <li>Hofstede Culture Compass</li>
+            <li>Interpersonal Safety and Risk Questionnaire (ISRQ)</li>
+            <li>High-Performance Culture Index</li>
+            <li>Nimble Leadership</li>
+          </ul>
+
+          <p>These tools help leaders and teams improve awareness, communication, collaboration, innovation, and organizational effectiveness.</p>
+
+          <a class="button button-primary button-large tools-button" href="#">
+            Explore Tools and Assessments
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <figure class="tools-image-card">
+          <img src="assets/bonfire-tools-image.png" alt="Person climbing steps representing leadership growth and assessment insight" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Elementor mapping: 40/60 about section with portrait image column and content column. -->
+    <section class="andrew-section" aria-labelledby="andrew-title">
+      <div class="site-container andrew-container">
+        <div class="andrew-visual">
+          <figure class="andrew-image-card">
+            <img src="assets/andrew-bio.png" alt="Andrew Harrison" />
+          </figure>
+
+          <aside class="andrew-quote-card">
+            <p class="quote-mark" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></p>
+            <blockquote>Insight becomes valuable when leaders and teams can turn it into shared language, better choices, and practical action.</blockquote>
+            <cite>- Andrew Harrison</cite>
+          </aside>
+        </div>
+
+        <div class="andrew-content">
+          <p class="section-label">Human-Centered Leadership Expertise</p>
+          <h2 id="andrew-title">Meet Andrew Harrison</h2>
+          <p>Andrew Harrison helps organizations strengthen leadership, improve communication and collaboration, and build high-performance teams.</p>
+          <p>His work focuses on the human dynamics that influence:</p>
+
+          <ul class="andrew-list">
+            <li>Leadership effectiveness</li>
+            <li>Team performance</li>
+            <li>Innovation and adaptability</li>
+            <li>Psychological safety and trust</li>
+            <li>AI and human integration</li>
+          </ul>
+
+          <p>Through keynotes, workshops, coaching, and advisory support, Andrew helps organizations create meaningful and sustainable improvement.</p>
+
+          <a class="button button-primary button-large andrew-button" href="#">
+            Learn More About Andrew
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Elementor mapping: global footer section with brand column, social icons, and nav link columns. -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="fire-canvas-container footer-fire-canvas-container" aria-hidden="true">
+      <canvas class="fire-canvas"></canvas>
+    </div>
+
+    <div class="site-container footer-container">
+      <div class="footer-brand-column">
+        <a class="footer-brand" href="#" aria-label="Bonfire Consulting home">
+          <img src="assets/Bonfire-Consulting.svg" alt="Bonfire Consulting" />
+        </a>
+
+        <div class="footer-contact-links">
+          <a href="tel:15854131354">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            1-585-413-1354
+          </a>
+          <a href="mailto:info@bonfireteam.com">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            info@bonfireteam.com
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <div class="footer-link-group">
+          <h4>Solutions</h4>
+          <a href="#">Psychological Safety</a>
+          <a href="#">High-Performance Teams</a>
+          <a href="#">High-Potentials</a>
+          <a href="#">Navigating Change</a>
+          <a href="#">Innovation</a>
+          <a href="#">Idea Development</a>
+          <a href="#">Personality</a>
+          <a href="#">Human AI</a>
+        </div>
+
+        <div class="footer-link-group">
+          <h4>Engage</h4>
+          <a href="#">Keynotes</a>
+          <a href="#">Workshops</a>
+          <a href="#">Advisory / Coaching / Consulting</a>
+          <a href="#">Tools</a>
+          <a href="#">ISPI tool</a>
+        </div>
+
+        <div class="footer-link-group">
+          <h4>About</h4>
+          <a href="#">Andrew Harrison</a>
+          <a href="#">Bonfire Approach</a>
+          <a href="#">Client Experience</a>
+          <a href="#">Collaborators</a>
+          <a href="#">Testimonials</a>
+        </div>
+
+        <div class="footer-link-group">
+          <h4>Insights</h4>
+          <a href="#">Articles</a>
+          <a href="#">Resources</a>
+          <a href="#">Books and Publications</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="site-container footer-legal">
+      <p>&copy; 2026 Bonfire Consulting. All rights reserved.</p>
+      <div class="footer-legal-links" aria-label="Legal links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="floating-calendar-cta" href="#" aria-label="Have a question? Let's schedule a conversation">
+    <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+    <span class="floating-tooltip" role="tooltip">Have a question? Let's schedule a conversation</span>
+  </a>
+
+  <script>
+    const siteHeader = document.querySelector(".site-header");
+    const navToggle = document.querySelector(".nav-toggle");
+    const primaryNav = document.querySelector(".primary-nav");
+    const heroVideo = document.querySelector(".hero-card-video");
+    const quoteCard = document.querySelector(".quote-card");
+    const fireCanvases = document.querySelectorAll(".fire-canvas");
+
+    const updateHeaderState = () => {
+      siteHeader.classList.toggle("is-scrolled", window.scrollY > 8);
+    };
+
+    updateHeaderState();
+    window.addEventListener("scroll", updateHeaderState, { passive: true });
+
+    navToggle.addEventListener("click", () => {
+      const isOpen = navToggle.getAttribute("aria-expanded") === "true";
+      navToggle.setAttribute("aria-expanded", String(!isOpen));
+      primaryNav.classList.toggle("is-open");
+      document.body.classList.toggle("nav-open");
+      navToggle.querySelector(".menu-icon").classList.toggle("fa-bars", isOpen);
+      navToggle.querySelector(".menu-icon").classList.toggle("fa-xmark", !isOpen);
+    });
+
+    heroVideo.addEventListener("play", () => {
+      quoteCard.classList.add("is-hidden");
+    });
+
+    heroVideo.addEventListener("pause", () => {
+      quoteCard.classList.remove("is-hidden");
+    });
+
+    heroVideo.addEventListener("ended", () => {
+      quoteCard.classList.remove("is-hidden");
+    });
+
+    if (fireCanvases.length) {
+      const themeStyles = getComputedStyle(document.documentElement);
+      const themeColorToRgb = (tokenName) => {
+        const hex = themeStyles.getPropertyValue(tokenName).trim().replace("#", "");
+        const normalizedHex = hex.length === 3
+          ? hex.split("").map((character) => character + character).join("")
+          : hex;
+        const value = parseInt(normalizedHex, 16);
+
+        return {
+          r: (value >> 16) & 255,
+          g: (value >> 8) & 255,
+          b: value & 255
+        };
+      };
+
+      class FireAnimation {
+        constructor(canvas, context) {
+          this.canvas = canvas;
+          this.context = context;
+          this.particles = [];
+          this.paletteBase = [
+            themeColorToRgb("--color-gold"),
+            themeColorToRgb("--color-orange"),
+            themeColorToRgb("--color-orange-deep")
+          ];
+          this.palette = [...this.paletteBase];
+          this.time = 0;
+
+          this.resetParticles();
+          this.animate();
+        }
+
+        get width() {
+          return this.canvas.clientWidth;
+        }
+
+        get height() {
+          return this.canvas.clientHeight;
+        }
+
+        resetParticles() {
+          this.particles = [];
+          const particleCount = Math.floor(this.width * this.height / 5000);
+
+          for (let i = 0; i < particleCount; i += 1) {
+            this.particles.push(this.createParticle());
+          }
+        }
+
+        createParticle() {
+          return {
+            x: Math.random() * this.width,
+            y: this.height + Math.random() * 100,
+            size: 5 + Math.random() * 25,
+            opacity: 0.22 + Math.random() * 0.58,
+            speedX: (Math.random() - 0.5) * 1.5,
+            speedY: -1.5 - Math.random() * 3,
+            colorIndex: Math.floor(Math.random() * this.palette.length),
+            rotation: Math.random() * Math.PI * 2,
+            rotationSpeed: (Math.random() - 0.5) * 0.02,
+            sway: 0.3 + Math.random() * 0.5,
+            swaySpeed: 0.005 + Math.random() * 0.01,
+            swayOffset: Math.random() * Math.PI * 2,
+            lifespan: 100 + Math.random() * 200
+          };
+        }
+
+        animate() {
+          this.context.clearRect(0, 0, this.width, this.height);
+          this.time += 0.01;
+          this.updatePalette();
+          this.updateParticles();
+          requestAnimationFrame(this.animate.bind(this));
+        }
+
+        updatePalette() {
+          this.palette = this.paletteBase.map((color, index) => {
+            const t = this.time + index * 0.5;
+            const variation = 20;
+
+            return {
+              r: Math.min(255, Math.max(0, color.r + Math.sin(t) * variation)),
+              g: Math.min(255, Math.max(0, color.g + Math.sin(t + 1) * variation)),
+              b: Math.min(255, Math.max(0, color.b + Math.sin(t + 2) * variation))
+            };
+          });
+        }
+
+        updateParticles() {
+          for (let i = 0; i < this.particles.length; i += 1) {
+            const particle = this.particles[i];
+
+            particle.x += particle.speedX + Math.sin(this.time * particle.swaySpeed + particle.swayOffset) * particle.sway;
+            particle.y += particle.speedY;
+            particle.rotation += particle.rotationSpeed;
+            particle.lifespan -= 1;
+
+            const lifeFactor = particle.lifespan / 300;
+            const currentSize = particle.size * lifeFactor;
+            const currentOpacity = particle.opacity * lifeFactor;
+
+            if (particle.lifespan > 0) {
+              this.drawBrushstroke(
+                particle.x,
+                particle.y,
+                currentSize,
+                particle.rotation,
+                this.palette[particle.colorIndex],
+                currentOpacity
+              );
+            }
+
+            if (particle.lifespan <= 0 || particle.y < -100) {
+              this.particles[i] = this.createParticle();
+            }
+          }
+        }
+
+        drawBrushstroke(x, y, size, rotation, color, opacity) {
+          this.context.save();
+          this.context.translate(x, y);
+          this.context.rotate(rotation);
+
+          const gradient = this.context.createLinearGradient(0, -size, 0, size);
+          gradient.addColorStop(0, `rgba(${color.r}, ${color.g}, ${color.b}, 0)`);
+          gradient.addColorStop(0.5, `rgba(${color.r}, ${color.g}, ${color.b}, ${opacity})`);
+          gradient.addColorStop(1, `rgba(${color.r}, ${color.g}, ${color.b}, 0)`);
+
+          this.context.fillStyle = gradient;
+          this.context.beginPath();
+          this.context.moveTo(-size / 3, -size);
+          this.context.quadraticCurveTo(size / 2, 0, -size / 3, size);
+          this.context.quadraticCurveTo(size / 2, 0, size / 3, -size / 2);
+          this.context.closePath();
+          this.context.fill();
+
+          this.context.fillStyle = `rgba(${color.r}, ${color.g}, ${color.b}, ${opacity * 0.7})`;
+          this.context.beginPath();
+          this.context.ellipse(size / 6, 0, size / 4, size / 2, 0, 0, Math.PI * 2);
+          this.context.fill();
+          this.context.restore();
+        }
+      }
+
+      const fireAnimations = Array.from(fireCanvases).map((canvas) => {
+        const context = canvas.getContext("2d");
+
+        const resizeFireCanvas = () => {
+          const bounds = canvas.parentElement.getBoundingClientRect();
+          const pixelRatio = window.devicePixelRatio || 1;
+
+          canvas.width = Math.max(1, Math.floor(bounds.width * pixelRatio));
+          canvas.height = Math.max(1, Math.floor(bounds.height * pixelRatio));
+          canvas.style.width = `${bounds.width}px`;
+          canvas.style.height = `${bounds.height}px`;
+          context.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
+        };
+
+        resizeFireCanvas();
+
+        return {
+          instance: new FireAnimation(canvas, context),
+          resize: resizeFireCanvas
+        };
+      });
+
+      window.addEventListener("resize", () => {
+        fireAnimations.forEach((fireAnimation) => {
+          fireAnimation.resize();
+          fireAnimation.instance.resetParticles();
+        });
+      });
+    }
+  </script>
+</body>
+</html>
+
